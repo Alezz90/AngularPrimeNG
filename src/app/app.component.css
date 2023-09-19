@@ -1,0 +1,8 @@
+:host/deep/ .headRegistration{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: antiquewhite  !important;
+    ;
+      color: rgb(16, 15, 15);
+}

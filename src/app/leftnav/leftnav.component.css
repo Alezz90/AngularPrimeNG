@@ -1,0 +1,16 @@
+:host/deep/.leftPanel{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+  :host/deep/.acc{
+    width:230px;
+  
+  }
+  :host/deep/a{
+    background-color: antiquewhite  !important;
+    border-color: #fccbc6;
+    border-width: 15px;
+    color: rgb(23, 23, 25)  !important;
+    text-decoration: none;
+  }

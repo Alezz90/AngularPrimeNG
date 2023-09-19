@@ -1,0 +1,24 @@
+
+  <div class="headRegistration">
+    <img src="assets/headphone-removebg-preview.png" style="width:80px;height:80px"/>
+    <h1>Support Register</h1>
+  </div>
+ <p-splitter
+      [panelSizes]="[15,85]"
+      [minSizes]="[15,80]"
+      [style]="{ height: 'auto' }"
+      
+    >
+      <ng-template pTemplate>
+        <div class="p-col p-ai-center p-jc-center">
+          <app-leftnav />
+        </div>
+      </ng-template>
+      <ng-template pTemplate #op>
+          <router-outlet/>
+      </ng-template>
+    </p-splitter>
+
+
+
+<!--<router-outlet></router-outlet>-->
