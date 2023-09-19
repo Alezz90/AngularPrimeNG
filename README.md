@@ -23,6 +23,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## image 
-![here the main screen I used p-accordionTab,p-table,p-dialog,p-splitter and p-button]([https://github.com/Alezz90/AngularPrimeNG/blob/main/Main.png])
-
+<img
+  src="https://github.com/Alezz90/AngularPrimeNG/blob/main/Main.png"
+  alt="main page"
+  title="main page"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+here the main screen I used p-accordionTab,p-table,p-dialog,p-splitter and p-button
 
