@@ -1,0 +1,22 @@
+
+<div class="headRegistration">
+    
+    <h1>Product table</h1>
+  </div>
+ <p-splitter
+      [panelSizes]="[50,50]"
+     
+      [style]="{ height: 'auto' }"
+      
+    >
+      <ng-template pTemplate>
+        <div class="p-col p-ai-center p-jc-center">
+            <p>Table2</p>
+        </div>
+      </ng-template>
+      <ng-template pTemplate #op>
+         <p>Table1</p>
+      </ng-template>
+    </p-splitter>
+
+

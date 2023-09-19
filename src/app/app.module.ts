@@ -30,13 +30,19 @@ import { DynamicDialogModule } from 'primeng/dynamicdialog';
 import { DialogService } from 'primeng/dynamicdialog';
 import { FieldsetModule } from 'primeng/fieldset';
 import { AccordionModule } from 'primeng/accordion';
+import { AddUserComponent } from './user-page/add-user/add-user.component';
+import { ProductComponent } from './product/product.component';
+import { MasterDataComponent } from './master-data/master-data.component';
 @NgModule({
   declarations: [
     AppComponent,
     UserPageComponent,
     BoardPanelComponent,
     EditUserComponent,
-    LeftnavComponent
+    LeftnavComponent,
+    AddUserComponent,
+    ProductComponent,
+    MasterDataComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +53,7 @@ import { AccordionModule } from 'primeng/accordion';
     SplitButtonModule,BrowserAnimationsModule, ConfirmPopupModule,
     SidebarModule,ButtonModule,PanelMenuModule, SplitterModule,ToastModule,InputTextModule
   ],
-  providers: [MessageService,DialogService,ConfirmationService],
+  providers: [MessageService,DialogService,ConfirmationService,],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

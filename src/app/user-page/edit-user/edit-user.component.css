@@ -5,4 +5,10 @@ color: blue;
     font-family: Helvetica, Arial, sans-serif;
     border-color: aquamarine;
   }
-  
+  :host/deep/ .Ch1{
+    margin-left: 15%;
+    }
+    :host/deep/ .fdi{
+      display: inline-flex;
+      flex-direction: row-reverse;
+    }

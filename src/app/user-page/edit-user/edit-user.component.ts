@@ -23,7 +23,8 @@ export class EditUserComponent {
   constructor(
     public userservice: UserService,
     public dialogService: DialogService,
-    public messageService: MessageService
+    public messageService: MessageService,
+    public confirmationService :ConfirmationService
   ) {}
   show() {
     this.ref = this.dialogService.open(this.User, { header: 'Edit User' });
@@ -40,4 +41,17 @@ export class EditUserComponent {
   closeDialog() {
     this.UserForm = false;
   }
-}
+  Delete(event: Event) {
+    this.confirmationService.confirm({
+      target: event.target as EventTarget,
+        message: "Sure to Delete?",
+        icon: "pi pi-exclamation-triangle",
+        accept: () => {
+          
+          this.messageService.add({ severity: 'info', summary: 'Confirmed', detail: 'You have accepted' });
+        },
+        reject: ()=>{
+          this.messageService.add({ severity: 'error', summary: 'Rejected', detail: 'You have rejected' });
+      }
+    });
+}}
