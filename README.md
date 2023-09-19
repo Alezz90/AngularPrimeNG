@@ -30,3 +30,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 here the main screen I used p-accordionTab,p-table,p-dialog,p-splitter and p-button
 
+<img
+  src="https://github.com/Alezz90/AngularPrimeNG/blob/main/confirm%20dialog.png"
+  alt="confirm dialog"
+  title="main page"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+  <img
+  src="https://github.com/Alezz90/AngularPrimeNG/blob/main/dialog%20Screenshot.png"
+  alt="confirm dialog"
+  title="main page"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+Edit Dialog I used P-dailog
+
